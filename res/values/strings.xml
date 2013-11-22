@@ -10,5 +10,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="button_login">Login</string>
+    <string name="button_match_stat">Match Statistics</string>
+    <string name="button_gpx">GPX data</string>
 
 </resources>

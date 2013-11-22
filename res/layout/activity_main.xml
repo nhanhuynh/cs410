@@ -2,27 +2,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+
+
+	<LinearLayout
+	    android:gravity="bottom"
+	    android:layout_width="match_parent"
+	     android:orientation="vertical"
+	    android:layout_height="wrap_content" >
+	    
+		<Button
+		    android:id="@+id/button_graph"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:singleLine="true"
+		    android:onClick="invokeGraphActivity"
+		    android:text="@string/button_gpx" />
 	
-       <EditText android:id="@+id/edit_message"
-         android:layout_weight="1"
-        android:layout_width="0dp"  
-         android:layout_height="wrap_content"      
-        android:hint="@string/edit_message" />
-
-       <Button
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:onClick="sendMessage"
-           android:text="@string/button_send" />
-
-       <Button
-           android:id="@+id/button1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:singleLine="true"
-           android:onClick="invokeLoginActivity"
-           android:text="@string/button_login" />
-
+		<Button
+		    android:id="@+id/button_match_stat"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:onClick="invokeStatisticsActivity"
+		    android:text="@string/button_match_stat" />
+	</LinearLayout>
+       
 </LinearLayout>
 

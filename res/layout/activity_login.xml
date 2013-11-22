@@ -5,15 +5,16 @@
     android:background="@drawable/bg" >
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity=""
         android:layout_x="45dp"
         android:layout_y="106dp"
         android:ems="10" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="43dp"
@@ -22,7 +23,7 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="110dp"
