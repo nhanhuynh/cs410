@@ -12,5 +12,6 @@
     <string name="button_login">Login</string>
     <string name="button_match_stat">Match Statistics</string>
     <string name="button_gpx">GPX data</string>
+    <string name="statistics">Statistics</string>
 
 </resources>
